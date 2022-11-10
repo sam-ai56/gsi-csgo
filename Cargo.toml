@@ -1,0 +1,9 @@
+[package]
+name = "gsi-csgo"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sam Miller"]
+readme = "README.md"
+license-file = "LICENSE"
+
+[dependencies]
