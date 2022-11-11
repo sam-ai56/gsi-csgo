@@ -9,7 +9,7 @@ homepage = "https://github.com/sam-ai56/gsi-csgo"
 repository = "https://github.com/sam-ai56/gsi-csgo"
 readme = "README.md"
 license-file = "LICENSE"
-keywords = ["gsi", "csgo", "valve", "λ", "matrix"]
+keywords = ["gsi", "csgo", "valve", "matrix"]
 categories = ["games", "parsing", "encoding", "api-bindings"]
 
 [dependencies]
