@@ -29,6 +29,7 @@
 //! Also you need add this to your `Cargo.toml`
 //! ```toml
 //! [dependencies]
+//! gsi-csgo = "0.1.0"
 //! poem = "1.3.48"
 //! tokio = { version = "1.21.2", features = ["rt-multi-thread", "macros"] }
 //! tracing-subscriber = "0.3.16"

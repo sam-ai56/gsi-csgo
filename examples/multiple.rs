@@ -1,5 +1,5 @@
 use poem::{handler, listener::TcpListener, post, Route, Server, web::Json};
-use gsi_csgo::{Body};
+use gsi_csgo::Body;
 
 async fn name(data: Json<Body>){
     let player = data.player.as_ref().unwrap();
