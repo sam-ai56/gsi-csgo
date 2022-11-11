@@ -10,6 +10,7 @@ pub enum TeamClass {
 #[serde(deny_unknown_fields)]
 pub struct TeamInfo {
     pub name: Option<String>,
+    /// Flag code
     pub flag: Option<String>,
     pub score: u8,
     pub consecutive_round_losses: u8,
