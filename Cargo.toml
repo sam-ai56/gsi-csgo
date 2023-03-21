@@ -1,15 +1,15 @@
 [package]
 name = "gsi-csgo"
 description = "A library containing ready-made structures for deserializing or reverse serializing data provided by CSGO GSI using serde. With examples."
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Sam Miller"]
 documentation = "https://docs.rs/gsi-csgo"
 homepage = "https://github.com/sam-ai56/gsi-csgo"
 repository = "https://github.com/sam-ai56/gsi-csgo"
 readme = "README.md"
-license-file = "LICENSE"
-keywords = ["gsi", "csgo", "valve", "matrix"]
+license = "MIT"
+keywords = ["csgo-gsi", "gsi", "csgo", "valve"]
 categories = ["games", "parsing", "encoding", "api-bindings"]
 
 [dependencies]
