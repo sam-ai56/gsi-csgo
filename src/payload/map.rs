@@ -18,8 +18,8 @@ pub struct Map {
     /// Terrorists team info
     pub team_t: super::TeamInfo,
     pub num_matches_to_win_series: u8,
-    pub current_spectators: u8,
-    pub souvenirs_total: u8
+    pub current_spectators: Option<u8>,
+    pub souvenirs_total: Option<u8>
 }
 
 #[derive(Deserialize, Serialize, Clone, Debug)]
